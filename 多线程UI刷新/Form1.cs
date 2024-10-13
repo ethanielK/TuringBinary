@@ -6,6 +6,9 @@ namespace 多线程UI刷新
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e5504f8809b2b7b92bececba2563874ba26fa0e2
     }
 }
