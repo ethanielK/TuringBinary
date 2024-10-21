@@ -11,11 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程UI刷新", "多线
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TurlingBinary__WPF", "TurlingBinary__WPF", "{6AC96F03-D6D1-4109-808D-41A9C272321B}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF基础", "WPF基础\WPF基础.csproj", "{6C029C7C-BA85-4F79-A3E0-995452066AFE}"
 EndProject
-=======
->>>>>>> e5504f8809b2b7b92bececba2563874ba26fa0e2
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__控件实战", "WPF__控件实战\WPF__控件实战.csproj", "{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,23 +29,22 @@ Global
 		{81B73A79-4976-4380-B1D2-216F596D1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B73A79-4976-4380-B1D2-216F596D1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B73A79-4976-4380-B1D2-216F596D1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{6C029C7C-BA85-4F79-A3E0-995452066AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C029C7C-BA85-4F79-A3E0-995452066AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C029C7C-BA85-4F79-A3E0-995452066AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C029C7C-BA85-4F79-A3E0-995452066AFE}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> e5504f8809b2b7b92bececba2563874ba26fa0e2
+		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{81B73A79-4976-4380-B1D2-216F596D1EBC} = {47AD1FEE-DF37-4ED6-BC2D-12120A97B785}
-<<<<<<< HEAD
 		{6C029C7C-BA85-4F79-A3E0-995452066AFE} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
-=======
->>>>>>> e5504f8809b2b7b92bececba2563874ba26fa0e2
+		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565AA27-73D2-4847-A147-9D4BEBDB8769}
