@@ -6,4 +6,4 @@
 
 ### 控件实战
 
-![](C:\Users\19816\AppData\Roaming\marktext\images\2024-10-28-21-09-50-image.png)
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/28-21-27-50-2024-10-28-21-09-50-image.png)
