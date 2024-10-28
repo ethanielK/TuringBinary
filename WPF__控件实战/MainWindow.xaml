@@ -66,6 +66,9 @@
                     Background="#0072C0" Foreground="White" FontSize="16"/>
             </StackPanel>
         </Border>
+        <Canvas Grid.Column="1">
+            <Button Content="❌" BorderBrush="Transparent" Click="Button_Click" Background="Transparent" Canvas.Top="5" Canvas.Left="485" Cursor="Hand"/>
+        </Canvas>
     </Grid>
 </Window>
 
