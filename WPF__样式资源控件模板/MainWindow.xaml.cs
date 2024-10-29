@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF基础
+namespace WPF__样式资源控件模板
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
