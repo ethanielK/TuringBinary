@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:WPF__样式资源控件模板"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Font/Font.xaml" />
+                <ResourceDictionary Source="/Resources/DefaultStyleDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <!--<ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <FontFamily x:Key="HarmonyOS Sans SC">pack://application:,,,/Resources/Font/HarmonyOS_Sans_SC_Regular.ttf#HarmonyOS Sans SC</FontFamily>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>-->
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

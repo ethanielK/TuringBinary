@@ -1,0 +1,71 @@
+﻿<Window x:Class="WPF__样式资源控件模板.Resource"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WPF__样式资源控件模板"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:system="clr-namespace:System;assembly=netstandard"
+        Title="Resource 资源"
+        Width="800"
+        Height="450"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d">
+    <!--  简易资源声明  -->
+    <Window.Resources>
+        <SolidColorBrush x:Key="PresentColor1" Color="Tomato" />
+        <LinearGradientBrush x:Key="PresentColor2" StartPoint="0, 0" EndPoint="1, 1">
+            <GradientStop Offset="0" Color="GreenYellow" />
+            <GradientStop Offset="1" Color="Tomato" />
+        </LinearGradientBrush>
+        <!--  常量资源  -->
+        <system:Double x:Key="BorderHeight">30</system:Double>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0"
+                Grid.Column="0"
+                Margin="10"
+                Background="{StaticResource PresentColor1}"
+                CornerRadius="8" />
+        <Border Grid.Row="0"
+                Grid.Column="1"
+                Height="{StaticResource BorderHeight}"
+                Margin="10"
+                Background="HotPink"
+                CornerRadius="8" />
+        <Border Grid.Row="1"
+                Grid.Column="0"
+                Margin="10"
+                Background="{DynamicResource PresentColor2}"
+                CornerRadius="8">
+            <TextBlock HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Text="动态资源 PresentColor2" />
+        </Border>
+        <Border Grid.Row="1"
+                Grid.Column="1"
+                Margin="10"
+                Background="{StaticResource PresentColor2}"
+                CornerRadius="8" />
+
+        <Button x:Name="btnChangeColor1"
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="10"
+                Content="Change PresentColor1" Click="btnChangeColor1_Click"/>
+        <Button x:Name="btnChangeColor2"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="10"
+                Content="Change PresentColor1" Click="btnChangeColor2_Click"/>
+    </Grid>
+</Window>
