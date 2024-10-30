@@ -16,10 +16,23 @@ namespace WPF__数据绑定
     /// </summary>
     public partial class MainWindow : Window
     {
-        Employee Employee = new Employee() { Name = "Default Name" };
+        Employee employee = new Employee() { Name = "Default Name" };
         public MainWindow()
         {
             InitializeComponent();
+
+            Binding binding = new Binding();
+            {
+                binding.Source = employee;
+                binding.Path = new PropertyPath("Name");
+            };
+
+            this.txtName.SetBinding(TextBox.TextProperty, binding);
+        }
+
+        private void btnChangeName_Click(object sender, RoutedEventArgs e)
+        {
+            employee.Name = this.txtTempName.Text;
         }
     }
 }
