@@ -6,47 +6,64 @@
     xmlns:local="clr-namespace:WPF__数据绑定"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="数据绑定"
-    Width="400"
+    Width="680"
     Height="200"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.DataContext>
+        <local:Employee Name="Default Name" />
+    </Window.DataContext>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="8*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
-        <TextBox
-            x:Name="txtName"
-            Grid.Row="0"
-            Grid.Column="0"
-            Grid.ColumnSpan="2"
-            Width="100"
-            Height="23"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center" />
-
-        <TextBox
-            x:Name="txtTempName"
-            Grid.Row="1"
-            Grid.Column="0"
-            Width="100"
-            Height="23"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center" />
-
-        <Button
-            Name="btnChangeName"
-            Grid.Row="1"
-            Grid.Column="1"
-            Width="100"
-            Height="23"
+        <TextBlock
+            Grid.ColumnSpan="5"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
-            Click="btnChangeName_Click"
-            Content="Change name" />
+            FontFamily="HarmonyOS Sans SC"
+            FontSize="24"
+            Text="数据绑定" />
+        <Button
+            x:Name="btnSimpleBinding"
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Click="btnSimpleBinding_Click"
+            Content="Simple Binding"
+            FontFamily="Cascadia Mono"
+            FontSize="16" />
+
+        <Button
+            x:Name="btnSliderDemo"
+            Grid.Row="1"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Click="btnSliderDemo_Click"
+            Content="Slider Demo"
+            FontFamily="Cascadia Mono"
+            FontSize="16" />
+
+        <Button
+            x:Name="btnDataContext"
+            Grid.Row="1"
+            Grid.Column="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Click="btnDataContext_Click"
+            Content="在 Xaml 使用 DataContext 作为数据源"
+            FontFamily="HarmonyOS Sans SC"
+            FontSize="16" />
+
+
     </Grid>
 </Window>

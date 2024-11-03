@@ -19,20 +19,25 @@ namespace WPF__数据绑定
         Employee employee = new Employee() { Name = "Default Name" };
         public MainWindow()
         {
-            InitializeComponent();
-
-            Binding binding = new Binding();
-            {
-                binding.Source = employee;
-                binding.Path = new PropertyPath("Name");
-            };
-
-            this.txtName.SetBinding(TextBox.TextProperty, binding);
+            InitializeComponent();        
         }
 
-        private void btnChangeName_Click(object sender, RoutedEventArgs e)
+        private void btnSimpleBinding_Click(object sender, RoutedEventArgs e)
         {
-            employee.Name = this.txtTempName.Text;
+            SimpleBinding simpleBinding = new SimpleBinding();
+            simpleBinding.Show();
+        }
+
+        private void btnSliderDemo_Click(object sender, RoutedEventArgs e)
+        {
+            SliderDemo demo = new SliderDemo();
+            demo.Show();
+        }
+
+        private void btnDataContext_Click(object sender, RoutedEventArgs e)
+        {
+            DataContext dataContext = new DataContext();
+            dataContext.Show();
         }
     }
 }
