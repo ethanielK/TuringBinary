@@ -8,6 +8,7 @@
     Title="SimpleBinding"
     Width="500"
     Height="200"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <StackPanel
         Grid.ColumnSpan="2"

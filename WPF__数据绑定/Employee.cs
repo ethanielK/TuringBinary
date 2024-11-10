@@ -11,20 +11,50 @@ namespace WPF__数据绑定
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-		private string name;
+        private string name;
 
-		public string Name
-		{
-			get { return name; }
-			set 
-			{ 
-				name = value; 
-				if(PropertyChanged != null)
-				{
-					PropertyChanged(this, new PropertyChangedEventArgs("Name"));
-				}
-			}
-		}
+        public string Name
+        {
+            get { return name; }
+            set
+            {
+                name = value;
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("Name"));
+                }
+            }
+        }
 
-	}
+        private int id;
+
+        public int Id
+        {
+            get { return id; }
+            set
+            {
+                id = value;
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("Id"));
+                }
+            }
+        }
+
+        private int level;
+
+        public int Level
+        {
+            get { return level; }
+            set
+            {
+                level = value;
+                if(PropertyChanged != null)
+                {
+                    PropertyChanged(this,new PropertyChangedEventArgs("Level"));
+                }
+            }
+        }
+
+    }
 }

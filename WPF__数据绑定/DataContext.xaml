@@ -8,15 +8,14 @@
     Title="DataContext"
     Width="600"
     Height="200"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Window.DataContext>
         <local:Employee Name="Default Name" />
     </Window.DataContext>
-    <StackPanel
-        Grid.Row="2"
-        Grid.ColumnSpan="2"
-        Orientation="Horizontal">
+    <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
         <TextBlock
+            Margin="10"
             VerticalAlignment="Center"
             FontFamily="HarmonyOS Sans SC"
             Text="在Xaml中使用DataContext作为数据源" />

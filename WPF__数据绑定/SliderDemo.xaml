@@ -8,6 +8,7 @@
     Title="SliderDemo"
     Width="500"
     Height="200"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <StackPanel
         Grid.Row="1"

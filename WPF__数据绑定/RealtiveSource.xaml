@@ -1,0 +1,26 @@
+﻿<Window
+    x:Class="WPF__数据绑定.RealtiveSource"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WPF__数据绑定"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="RealtiveSource"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid Background="Tomato">
+        <Grid Margin="50" Background="LightPink">
+            <Grid Margin="50" Background="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Grid}, AncestorLevel=2}, Path=Background}">
+                <Button
+                    Width="150"
+                    Height="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Width}"
+                    Margin="10"
+                    Content="Self"
+                    FontFamily="Cascadia Mono"
+                    FontSize="20" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

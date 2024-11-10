@@ -39,5 +39,17 @@ namespace WPF__数据绑定
             DataContext dataContext = new DataContext();
             dataContext.Show();
         }
+
+        private void btnItemSource_Click(object sender, RoutedEventArgs e)
+        {
+            ItemsSource itemsSource = new ItemsSource();
+            itemsSource.Show();
+        }
+
+        private void btnRealtiveSource_Click(object sender, RoutedEventArgs e)
+        {
+            RealtiveSource realtiveSource = new RealtiveSource();
+            realtiveSource.Show();
+        }
     }
 }
