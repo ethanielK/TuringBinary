@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__样式资源控件模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据绑定", "WPF__数据绑定\WPF__数据绑定.csproj", "{EBD93BC6-8B85-41B0-98DB-92DC099C55A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据校验与转换", "WPF__数据转换\WPF__数据校验与转换.csproj", "{01A62207-11E3-42D8-A927-429632C8B50E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A62207-11E3-42D8-A927-429632C8B50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A62207-11E3-42D8-A927-429632C8B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A62207-11E3-42D8-A927-429632C8B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A62207-11E3-42D8-A927-429632C8B50E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{92BCF6A0-166C-4CC7-9D29-8EE657CC7D71} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{180B5A12-607E-45AC-A373-5B7845A7C1DD} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
+		{01A62207-11E3-42D8-A927-429632C8B50E} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565AA27-73D2-4847-A147-9D4BEBDB8769}
