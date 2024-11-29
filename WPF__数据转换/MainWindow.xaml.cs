@@ -17,6 +17,16 @@ namespace WPF__数据转换
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<EmployeeSatisfaction> satisfactions = new List<EmployeeSatisfaction>()
+        {
+            new EmployeeSatisfaction(){ Name = "光头强", SatisfactionFromEmployee = Satisfaction.Anxious },
+            new EmployeeSatisfaction(){ Name = "超人强", SatisfactionFromEmployee = Satisfaction.Anxious },
+            new EmployeeSatisfaction(){ Name = "光头强", SatisfactionFromEmployee = Satisfaction.Anxious },
+            new EmployeeSatisfaction(){ Name = "光头强", SatisfactionFromEmployee = Satisfaction.Anxious },
+            new EmployeeSatisfaction(){ Name = "光头强", SatisfactionFromEmployee = Satisfaction.Anxious },
+        };
+
         public MainWindow()
         {
             InitializeComponent();
