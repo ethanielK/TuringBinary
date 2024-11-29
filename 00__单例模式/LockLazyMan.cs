@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _00__单例模式
+﻿namespace _00__单例模式
 {
     internal class LockLazyMan
     {
@@ -18,11 +12,11 @@ namespace _00__单例模式
 
         public static LockLazyMan GetInstance()
         {
-            if(instance == null)
+            if (instance == null)
             {
-                lock(locker)
+                lock (locker)
                 {
-                    if(instance == null)
+                    if (instance == null)
                     {
                         instance = new LockLazyMan();
                         Console.WriteLine($"LockLazyMain is created by {Thread.CurrentThread.ManagedThreadId}.");

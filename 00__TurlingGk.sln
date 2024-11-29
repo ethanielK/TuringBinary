@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据绑定", "WPF__�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据校验与转换", "WPF__数据转换\WPF__数据校验与转换.csproj", "{01A62207-11E3-42D8-A927-429632C8B50E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TurlingBinary_CSharp", "TurlingBinary_CSharp", "{B7543794-2567-42DC-9632-B8462117D30B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TurlingBinary__CSharp", "TurlingBinary__CSharp", "{B7543794-2567-42DC-9632-B8462117D30B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00__单例模式", "00__单例模式\00__单例模式.csproj", "{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}"
 EndProject
