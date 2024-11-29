@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据绑定", "WPF__�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__数据校验与转换", "WPF__数据转换\WPF__数据校验与转换.csproj", "{01A62207-11E3-42D8-A927-429632C8B50E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TurlingBinary_CSharp", "TurlingBinary_CSharp", "{B7543794-2567-42DC-9632-B8462117D30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00__单例模式", "00__单例模式\00__单例模式.csproj", "{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{01A62207-11E3-42D8-A927-429632C8B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A62207-11E3-42D8-A927-429632C8B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A62207-11E3-42D8-A927-429632C8B50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{180B5A12-607E-45AC-A373-5B7845A7C1DD} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{01A62207-11E3-42D8-A927-429632C8B50E} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
+		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C} = {B7543794-2567-42DC-9632-B8462117D30B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565AA27-73D2-4847-A147-9D4BEBDB8769}
