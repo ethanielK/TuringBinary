@@ -27,7 +27,7 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <StackPanel>
+        <StackPanel Margin="10">
             <TextBlock Text="数据校验" />
             <TextBox x:Name="txtSlider" />
             <Slider
@@ -37,6 +37,20 @@
                 Maximum="50"
                 Minimum="-20"
                 TickFrequency="1" />
+            <TextBlock Text="转换器和多路绑定"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBlock Text="员工满意度调查"/>
+            <ListBox x:Name="lbSatisfaction">
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock Text="姓名：" />
+                        <TextBlock Text="光头强"/>
+                        <Image />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox>
+  
         </StackPanel>
     </Grid>
 </Window>
