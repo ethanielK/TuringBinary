@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TurlingBinary__CSharp", "Tu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00__单例模式", "00__单例模式\00__单例模式.csproj", "{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__事件和路由事件", "WPF__事件和路由事件\WPF__事件和路由事件.csproj", "{32609D0D-3142-4A53-9BF2-7D89A606E5AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32609D0D-3142-4A53-9BF2-7D89A606E5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32609D0D-3142-4A53-9BF2-7D89A606E5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32609D0D-3142-4A53-9BF2-7D89A606E5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32609D0D-3142-4A53-9BF2-7D89A606E5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{EBD93BC6-8B85-41B0-98DB-92DC099C55A0} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{01A62207-11E3-42D8-A927-429632C8B50E} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{A691959B-22FC-48E4-8CE5-AD86DDE0DD2C} = {B7543794-2567-42DC-9632-B8462117D30B}
+		{32609D0D-3142-4A53-9BF2-7D89A606E5AD} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565AA27-73D2-4847-A147-9D4BEBDB8769}
