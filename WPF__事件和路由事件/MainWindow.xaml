@@ -33,7 +33,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <TextBlock Grid.ColumnSpan="2" Text="WPF —— 路由事件" />
-        <StackPanel Grid.Row="1" Margin="10">
+        <StackPanel Grid.Column="0" Grid.Row="1" Margin="10">
             <Button x:Name="btnModel"
                     Click="btnModel_Click"
                     Content="路由事件响应模型" />
@@ -45,7 +45,7 @@
             <Button x:Name="btnEvent"
                     Click="btnEvent_Click"
                     Content="自定义路由事件" />
-            <TextBlock Text="       自定义路由事件" TextAlignment="Left" />
+            <TextBlock Text="       自定义路由事件常用于创建全新的控件、扩展现有控件或者实现一些特殊的交互效果。" TextAlignment="Left" />
         </StackPanel>
     </Grid>
 </Window>
