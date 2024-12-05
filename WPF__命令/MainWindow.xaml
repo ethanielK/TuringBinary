@@ -8,6 +8,19 @@
     Title="MainWindow"
     Width="800"
     Height="450"
-    mc:Ignorable="d">
-    <Grid />
+    mc:Ignorable="d" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Consolas"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="HarmonyOS Sans SC"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel x:Name="stackPanel">
+        <Button x:Name="btnCommand" Content="Send Content" Margin="5"/>
+        <TextBox x:Name="textBox" Margin="5" Height="100"/>
+    </StackPanel>
 </Window>
