@@ -45,3 +45,19 @@
 ### 数据校验和转换器
 
 <img title="" src="https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/11/30-20-16-06-2024-11-30-20-13-36-image.png" alt="" data-align="inline">
+
+## 事件与路由事件
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-10-54-2024-12-09-21-10-31-image.png)
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-10-58-2024-12-09-21-10-52-image.png)
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-11-23-2024-12-09-21-11-19-image.png)
+
+## 命令
+
+## 样式、模板深入
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-41-2024-12-09-21-12-52-image.png)
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-33-2024-12-09-21-13-04-image.png)![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-38-2024-12-09-21-13-27-image.png)
