@@ -1,8 +1,9 @@
-﻿<Application x:Class="WPF__基本绘图与动画.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPF__基本绘图与动画"
-             StartupUri="MainWindow.xaml">
+﻿<Application
+    x:Class="WPF__基本绘图与动画.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WPF__基本绘图与动画"
+    StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="HarmonyOS Sans SC" />

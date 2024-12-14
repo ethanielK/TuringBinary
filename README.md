@@ -8,21 +8,21 @@
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/28-21-27-50-2024-10-28-21-09-50-image.png)
 
-## 样式 资源 控件模板
+### 样式 资源 控件模板
 
-### 资源
+#### 资源
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/30-20-40-43-2024-10-30-20-39-24-image.png)
 
-### 字体资源
+#### 字体资源
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/30-20-40-49-2024-10-30-20-39-58-image.png)
 
-### 样式
+#### 样式
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/30-20-41-14-2024-10-30-20-40-14-image.png)
 
-### 控件模板
+#### 控件模板
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/10/30-20-41-18-2024-10-30-20-40-29-image.png)
 
@@ -61,3 +61,13 @@
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-41-2024-12-09-21-12-52-image.png)
 
 ![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-33-2024-12-09-21-13-04-image.png)![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/09-21-13-38-2024-12-09-21-13-27-image.png)
+
+## 基本绘图与动画
+
+### 画刷 Brush
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/14-18-04-22-2024-12-14-18-04-18-image.png)  
+
+### 图形 Shape
+
+![](https://raw.githubusercontent.com/ethanielK/ImgGallery/main/2024/12/14-18-04-57-2024-12-14-18-04-54-image.png)
