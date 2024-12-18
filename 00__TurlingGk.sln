@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__样式模板深入", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF__基本绘图与动画", "WPF__基本绘图与动画\WPF__基本绘图与动画.csproj", "{A48BD700-DCCB-4431-9A37-AFA3E345F63E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCommandMVVM", "CustomCommandMVVM\CustomCommandMVVM.csproj", "{5ED13580-E42A-8AB1-51F7-E671D4008DA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{A48BD700-DCCB-4431-9A37-AFA3E345F63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A48BD700-DCCB-4431-9A37-AFA3E345F63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A48BD700-DCCB-4431-9A37-AFA3E345F63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED13580-E42A-8AB1-51F7-E671D4008DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED13580-E42A-8AB1-51F7-E671D4008DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED13580-E42A-8AB1-51F7-E671D4008DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED13580-E42A-8AB1-51F7-E671D4008DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{173A57C5-0836-45D8-BDF5-A7769867B2FC} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{4C98247C-0F19-40BE-876D-627252DDB245} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 		{A48BD700-DCCB-4431-9A37-AFA3E345F63E} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
+		{5ED13580-E42A-8AB1-51F7-E671D4008DA8} = {6AC96F03-D6D1-4109-808D-41A9C272321B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565AA27-73D2-4847-A147-9D4BEBDB8769}

@@ -11,7 +11,7 @@ namespace WPF__命令
         public MainWindow()
         {
             InitializeComponent();
-            this.InitializeCommand();
+            InitializeCommand();
         }
 
         // 声明并定义命令
@@ -20,28 +20,26 @@ namespace WPF__命令
         // 声明命令初始化的方法，包括命令赋值、命令关联等
         private void InitializeCommand()
         {
-            // 为命令额外添加快捷键触发方式
+            // 把命令赋值给命令源（发送者）并指定快捷键
+            this.btnCommand.Command = this.clearCmd;
             this.clearCmd.InputGestures.Add(new KeyGesture(Key.C, ModifierKeys.Alt));
 
-            // 为命令源指定命令和目标
-            this.btnCommand.Command = this.clearCmd;
+            // 为命令源指定命令目标
             this.btnCommand.CommandTarget = this.textBox;
 
             // 创建命令关联
-            // ①创建实例
             CommandBinding cb = new CommandBinding();
-            // ②指定命令
-            cb.Command = this.clearCmd;
-            // ③将CanExecute和Execute订阅相应的事件处理程序
+            cb.Command = this.clearCmd; // 只关注与clearCmd相关的事件
+            // 订阅相应的事件处理程序
             cb.CanExecute += new CanExecuteRoutedEventHandler(cb_CanExecute);
             cb.Executed += new ExecutedRoutedEventHandler(cb_Execute);
 
-            // 设置命令关联的位置
+            // 把命令安置在外围控件，设置命令关联的位置
             this.stackPanel.CommandBindings.Add(cb);
         }
 
-        // 判断事件是否可执行的事件处理器
-        private void cb_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        // CanExecuteRoutedEventHandler 事件处理器，判断事件是否可执行
+        private void cb_CanExecute(object sender, CanExecuteRoutedEventArgs e)  // 当需要判断事件是否可执行时,此事件被调用
         {
             if(string.IsNullOrEmpty(this.textBox.Text))
             {
@@ -56,6 +54,7 @@ namespace WPF__命令
             e.Handled= true;
         }
 
+        // ExecutedRoutedEventHandler 事件处理器，执行事件
         // 命令到达目标后要执行的事件处理器
         private void cb_Execute(object sender, ExecutedRoutedEventArgs e)
         {
