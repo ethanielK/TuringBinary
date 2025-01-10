@@ -1,0 +1,82 @@
+﻿<Window
+    x:Class="CommunityToolkit__Mvvm_Demo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CommunityToolkit__Mvvm_Demo"
+    xmlns:local1="clr-namespace:CommunityToolkit__Mvvm_Demo.ViewModels"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="500"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <local1:MainWindowViewModel />
+    </Window.DataContext>
+    <StackPanel>
+        <TextBox
+            x:Name="age"
+            Margin="5"
+            FontSize="24"
+            Text="{Binding Age}" />
+        <TextBox
+            x:Name="firstName"
+            Margin="5"
+            FontSize="24"
+            Text="{Binding FirstName}" />
+        <TextBox
+            x:Name="secnodName"
+            Margin="5"
+            FontSize="24"
+            Text="{Binding SecondName}" />
+        <CheckBox
+            x:Name="canChangeAge"
+            Margin="5"
+            Content="CanChangeName"
+            FontSize="20"
+            IsChecked="{Binding CanChangeAge}" />
+        <Button
+            x:Name="btnChangeAge"
+            Margin="5"
+            Command="{Binding ChangeAgeCommand}"
+            Content="ChangeAge"
+            FontSize="18" />
+        <Border
+            Margin="5"
+            BorderBrush="Tomato"
+            BorderThickness="2"
+            CornerRadius="10">
+            <StackPanel>
+                <TextBlock
+                    Margin="5"
+                    FontSize="26"
+                    Text="Info：" />
+                <TextBlock
+                    x:Name="txtSecnodName"
+                    Margin="5"
+                    FontSize="20"
+                    Text="{Binding ElementName=secnodName, Path=Text}" />
+                <TextBlock
+                    Name="txtFirstName"
+                    Margin="5"
+                    FontSize="20"
+                    Text="{Binding ElementName=firstName, Path=Text}" />
+                <TextBlock
+                    x:Name="txtAge"
+                    Margin="5"
+                    FontSize="20"
+                    Text="{Binding ElementName=age, Path=Text}" />
+                <TextBlock
+                    Margin="5"
+                    FontSize="26"
+                    Text="CanChangeName:" />
+                <TextBlock
+                    x:Name="txtCanChangeAge"
+                    Margin="5"
+                    FontSize="20"
+                    Text="{Binding CanChangeAge}" />
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</Window>

@@ -1,4 +1,4 @@
-﻿namespace TurlingBinary
+﻿namespace TuringBinary
 {
     internal class Program
     {

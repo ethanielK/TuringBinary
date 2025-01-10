@@ -1,6 +1,8 @@
-﻿using System.Windows;
+﻿using System.Configuration;
+using System.Data;
+using System.Windows;
 
-namespace WPF__样式资源控件模板
+namespace CommunityToolkit__Mvvm_Demo
 {
     /// <summary>
     /// Interaction logic for App.xaml
