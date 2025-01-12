@@ -1,0 +1,36 @@
+﻿<Window
+    x:Class="CommunityToolkit__Mvvm_Demo.Views.ObservableValidatorView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CommunityToolkit__Mvvm_Demo.Views"
+    xmlns:local1="clr-namespace:CommunityToolkit__Mvvm_Demo.ViewModels"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ObservableValidatorView"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <local1:ObservableValidatorViewModel />
+    </Window.DataContext>
+    <StackPanel>
+        <TextBox
+            Margin="5"
+            FontSize="24"
+            Text="{Binding Age}" />
+        <TextBox
+            Margin="5"
+            FontSize="24"
+            Text="{Binding Email}" />
+        <TextBlock
+            Margin="5"
+            FontSize="22"
+            Text="{Binding ErrorMessage}" />
+        <Button
+            Margin="5"
+            Command="{Binding SubmitCommand}"
+            Content="Submit"
+            FontSize="24" />
+    </StackPanel>
+</Window>
