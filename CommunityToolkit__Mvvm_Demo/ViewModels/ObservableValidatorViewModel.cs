@@ -22,23 +22,14 @@ namespace CommunityToolkit__Mvvm_Demo.ViewModels
         private string _email;
 
         [ObservableProperty]
-        private string? _errorMessage;
+        private string? errMessage;
 
         [RelayCommand]
         void Submit()
         {
             ValidateAllProperties();
 
-            //_errorMessage = HasErrors ? string.Join(Environment.NewLine,GetErrors().Select(e=> e.ErrorMessage)) : "";
-
-            if (HasErrors)
-            {
-                _errorMessage = string.Join(Environment.NewLine, GetErrors().Select(e => e.ErrorMessage));
-            }
-            else
-            {
-                _errorMessage = "";
-            }
+            ErrMessage= HasErrors ? string.Join(Environment.NewLine,GetErrors().Select(e=> e.ErrorMessage)) : "No error occurred.";
         }
     }
 }
