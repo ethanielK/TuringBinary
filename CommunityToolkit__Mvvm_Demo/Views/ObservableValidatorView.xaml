@@ -22,7 +22,17 @@
         <TextBox
             Margin="5"
             FontSize="24"
-            Text="{Binding Email}" />
+            Text="{Binding Email}">
+            <TextBox.Style>
+                <Style BasedOn="{StaticResource ResourceKey={x:Type TextBox}}" TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Validation.HasError" Value="True">
+                            <Setter Property="Background" Value="Tomato" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
         <TextBlock
             Margin="5"
             FontSize="22"

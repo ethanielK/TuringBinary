@@ -29,9 +29,31 @@ namespace CommunityToolkit__Mvvm_Demo.ViewModels
         }
 
         [RelayCommand]
-        void RestoreInfomation()
+        void RestoreInformation()
         {
             Age = 18;
+        }
+
+        // TaskNotifier
+        [ObservableProperty]
+        private string? title = "TaskNotifier";
+
+        private TaskNotifier? changeTitleTask;
+
+        public Task? ChangeTitleRequest
+        {
+            get => changeTitleTask;
+            set => SetPropertyAndNotifyOnCompletion(ref changeTitleTask, value);
+        }
+
+        [RelayCommand]
+        private void ChangeTitle()
+        {
+            ChangeTitleRequest = Task.Run(async () =>
+            {
+                await Task.Delay(2000);
+                Title = "图灵课程更新啦。";
+            });
         }
     }
 }

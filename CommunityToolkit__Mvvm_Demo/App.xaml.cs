@@ -1,5 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
+﻿using System.Globalization;
 using System.Windows;
 
 namespace CommunityToolkit__Mvvm_Demo
@@ -9,6 +8,10 @@ namespace CommunityToolkit__Mvvm_Demo
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            CultureInfo.CurrentCulture = new CultureInfo("zh-CN");
+            CultureInfo.CurrentUICulture = new CultureInfo("zh-CN");
+        }
     }
-
 }
