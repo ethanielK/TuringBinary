@@ -1,0 +1,33 @@
+﻿<Window
+    x:Class="CommunityToolkit__Mvvm_Demo.Views.MessagersView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CommunityToolkit__Mvvm_Demo.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="clr-namespace:CommunityToolkit__Mvvm_Demo.ViewModels"
+    Title="MessagersView"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <viewModels:MessagersViewModel />
+    </Window.DataContext>
+    <StackPanel>
+        <TextBlock
+            Margin="5"
+            FontSize="22"
+            Text="{Binding Name}" />
+        <Button
+            Margin="5"
+            Command="{Binding SubmitCommand}"
+            Content="Submit"
+            FontSize="20" />
+        <Button
+            Margin="5"
+            Command="{Binding SubmitWithTokenBCommand}"
+            Content="Submit With TokenB"
+            FontSize="20" />
+    </StackPanel>
+</Window>
